@@ -2,11 +2,17 @@
 
 Simples Gerenciador de Upload de Ficheiros img/Midia/audio etc..
 
+# Instalacao 
+
+Para Instalar a dependencia basta usar o comando abaixo:
+```shell
+composer require frtechnology/uploder-php
+```
 # Utilização
 
 Para saber usar o gerenciador é só seguir o exemplo seguinte:
 
-'''php
+```php
   <?php 
 
 
@@ -22,6 +28,8 @@ require __DIR__.'/vendor/autoload.php';
   
 ?>
 
+```
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -37,8 +45,7 @@ require __DIR__.'/vendor/autoload.php';
     </form>
 </body>
 </html>
-
-'''
+```
 
 ## Requisitos
 
