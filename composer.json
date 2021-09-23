@@ -1,0 +1,21 @@
+{
+    "name": "frtechnology/uploder-php",
+    "description": "Gerenciador de Upload PHP",
+    "type": "bibray",
+    "license" : "GPL-3.0-or-later",
+    "authors": [
+        {
+            "name":"Francisco Maculuve",
+            "email": "franciscomaculuve002@gmail.com"
+        }
+    ],
+    "autoload" : {
+        "psr-4" : {
+            "FRtechnology\\" : "src/"
+        }
+    },
+
+    "require": {
+        "php" : ">=7.0"
+    }
+}
