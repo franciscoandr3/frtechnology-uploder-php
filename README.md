@@ -20,8 +20,18 @@ require __DIR__.'/vendor/autoload.php';
 
    use FRtechnology\Upload;
 
+
+    //Primeiro Parametro Nome Arquivo array
+    //Nome do Diretorio
+    //Tamanho do arquivo
+
     $upload = new Upload($_FILES['imgUpload'],'public/','8');
+
+    //Definir Extencion Permitidas 
     $upload->setExtension(['mp4','mp3']);
+
+    //true para nao fazer sobrescrita do doretorio
+    
     if($upload->upload(true)){
       echo "Sucesso";
     }
